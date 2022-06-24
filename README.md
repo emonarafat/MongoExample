@@ -1,5 +1,6 @@
 Create a RESTful API with .NET Core and MongoDB
 ===============================================
+[![.NET](https://github.com/emonarafat/MongoExample/actions/workflows/dotnet.yml/badge.svg)](https://github.com/emonarafat/MongoExample/actions/workflows/dotnet.yml)
 
 If you've been keeping up with my development content, you'll remember that I recently wrote[Build Your First .NET Core Application with MongoDB Atlas](https://www.mongodb.com/developer/how-to/build-first-dotnet-core-application-mongodb-atlas/), which focused on building a console application that integrated with MongoDB. While there is a fit for MongoDB in console applications, many developers are going to find it more valuable in web applications.
 

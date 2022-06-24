@@ -25,7 +25,7 @@ We'll be using .NET Core 6.0 in this tutorial, but other versions may still work
 #### Create a Web API Project with the .NET Core CLI
 
 To kick things off, we're going to create a fresh .NET Core project using the web application template that Microsoft offers. To do this, execute the following commands from the CLI:
-```cs
+```console
 dotnet new webapi -o MongoExample
 cd MongoExample
 dotnet add package MongoDB.Driver
@@ -57,7 +57,7 @@ public class MongoDBSettings {
 
 The above `MongoDBSettings` class will hold information about our connection, the database name, and the collection name. The data we plan to store in these class fields will be found in the project's "appsettings.json" file. Open it and add the following:
 
-```cs
+```json
 {
     "Logging": {
         "LogLevel": {
@@ -357,4 +357,4 @@ You just saw how to create a simple four endpoint RESTful API using .NET Core an
 
 Like I mentioned, you can take the same strategy used here and apply it towards more endpoints, each doing something critical for your web application.
 
-Got a question about the driver for .NET? Swing by the[MongoDB Community Forums](https://community.mongodb.com)!
+Got a question about the driver for .NET? Swing by the [MongoDB Community Forums](https://community.mongodb.com)!

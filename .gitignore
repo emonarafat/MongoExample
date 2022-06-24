@@ -456,3 +456,4 @@ $RECYCLE.BIN/
 ## Custome Ignores
 ##
 appsettings.Development.json
+/.vscode

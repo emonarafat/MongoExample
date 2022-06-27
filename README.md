@@ -16,8 +16,6 @@ To be successful with this tutorial, you'll need to have a few things taken care
 * .NET Core 6+
     
 
-We won't go through the steps of deploying a MongoDB Atlas cluster or configuring it with user and network rules. If this is something you need help with, check out a[previous tutorial](https://www.mongodb.com/developer/article/5-different-ways-deploy-free-database-mongodb-atlas/)that was published on the topic.
-
 We'll be using .NET Core 6.0 in this tutorial, but other versions may still work. Just take the version into consideration before continuing.
 
 [](#create-a-web-api-project-with-the--net-core-cli)
